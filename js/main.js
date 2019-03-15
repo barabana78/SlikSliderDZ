@@ -8,11 +8,11 @@
             slidesToScroll: 1,
             autoplay: true,
             autoplaySpeed: 2000,
-            //focusOnSelect: true,//слайдится при клике
+            focusOnSelect: true,//слайдится при клике
             centerMode: true,
             prevArrow: '.row-prev',
             nextArrow: '.row-next',
-            centerPadding: '100px',//расстояние на которое вылазиет след слайд
+            centerPadding: '100px',//расстояние на которое выходит след слайд
         });
     })
 })(jQuery);

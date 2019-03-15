@@ -42,12 +42,12 @@ header h1 {
 .plus-img {
   position: absolute;
   top: -15px;
-  right: 593px;
+  right: 500px;
 }
 .row-img {
   position: absolute;
-  top: 165px;
-  left: 385px;
+  top: 200px;
+  left: 64px;
 }
 .slider {
   cursor: pointer;
@@ -61,7 +61,10 @@ header h1 {
   z-index: 10;
 }
 .row-next {
-  right: 0;
+  right: 5px;
+}
+.row-prev {
+  left: 5px;
 }
 .slick-slide {
   opacity: 0.3;
